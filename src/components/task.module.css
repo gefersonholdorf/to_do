@@ -1,0 +1,24 @@
+.taskContainer {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    padding: .3rem 3rem;
+    background-color: var(--gray-500);
+    border-radius: .7rem;
+    border: 1px solid var(--gray-400);
+
+    p {
+        color: var(--gray-100);
+        font-size: .8rem;
+    }
+
+    & div:nth-child(3) {
+        margin-left: auto;
+    }
+}
+
+.underline {
+    text-decoration: line-through;
+}

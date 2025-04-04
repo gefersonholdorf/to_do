@@ -1,0 +1,42 @@
+.default {
+    background-color: var(--blue-dark);
+    height: 3.37rem;
+    width: 5.6rem;
+    cursor: pointer;
+    border-radius: .6rem;
+    border: none;
+    text-align: center;
+    color: var(--gray-100);
+    align-content: center;
+
+    img {
+        padding-left: .4rem;
+    }
+
+    button {
+        display: none;
+    }
+}
+
+.default:hover {
+    background-color: var(--blue);
+}
+
+.delete {
+    cursor: pointer;;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray-500);
+    border-radius: .4rem;
+
+    img {
+        height: 1.5rem;
+    }
+}
+
+.delete:hover{
+    background-color: var(--gray-400);
+    & img {
+        filter: brightness(0) saturate(100%) invert(13%) sepia(100%) saturate(7479%) hue-rotate(-1deg) brightness(97%) contrast(119%);
+    }
+}
