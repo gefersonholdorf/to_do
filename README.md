@@ -12,3 +12,6 @@ Essa é uma aplicação de controle de tarefas no estilo to-do list, que contém
 - Marcar e desmarcar uma tarefa como concluída
 - Remover uma tarefa da listagem
 - Mostrar o progresso de conclusão das tarefas
+
+![image](https://github.com/user-attachments/assets/79f06e3d-010d-48db-b28b-b2c7526489f5)
+
